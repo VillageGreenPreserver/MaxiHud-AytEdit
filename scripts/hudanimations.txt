@@ -1,0 +1,15 @@
+///////////////////////// HITMARKER /////////////////////////
+
+//event DamagedPlayer
+{
+	StopEvent Hitmarker 0.0
+	RunEvent Hitmarker 0.1
+}
+
+//////////////////////////////////////////////////////////////
+// Remove ''//'' from ''event DamagedPlayer'' to enable it. // 
+// Add ''//'' into ''event DamagedPlayer'' to disable it.   //
+//							    //
+// NOTE: Enabling the hitmarker can cause performance       //
+// issues when playing MvM.				    //
+//////////////////////////////////////////////////////////////

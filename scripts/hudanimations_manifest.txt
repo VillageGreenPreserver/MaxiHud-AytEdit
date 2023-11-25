@@ -1,0 +1,7 @@
+"HudAnimations_Manifest"
+{
+
+	"file" 		"scripts/hudanimations_tf.txt"
+	"file" 		"scripts/hudanimations.txt" //< Hitmarker animation
+	"file" 		"scripts/crosshairs/crosshair_animation.txt"
+}
