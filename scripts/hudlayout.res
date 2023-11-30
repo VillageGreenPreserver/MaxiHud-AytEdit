@@ -70,7 +70,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c70"
-		"ypos"			"c40"
+		"ypos"			"c80"
 		"wide"			"96"
 		"tall"			"50"
 	}
@@ -80,11 +80,11 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-10"
-		"ypos"			"c23"
+		"xpos"			"c-30"
+		"ypos"			"c56"
 		"zpos"			"1"
-		"wide"			"20"
-		"tall"			"3"
+		"wide"			"60"
+		"tall"			"15"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}	
@@ -318,8 +318,8 @@
 	{
 		"ControlName"		"CCurrencyStatusPanel"
 		"fieldName"			"CurrencyStatusPanel"
-		"xpos"				"247"
-		"ypos"				"r143"
+		"xpos"				"160" //-7
+		"ypos"				"r50" //-43
 		"wide"				"100"
 		"tall"				"100"
 		"visible" 			"0"

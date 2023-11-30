@@ -94,3 +94,4 @@
         "drawcolor"             "TanLight"
         "proportionaltoparent"  "1"
     }
+}

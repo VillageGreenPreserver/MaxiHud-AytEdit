@@ -4,7 +4,7 @@ Scheme
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"MaxiHudMark"
-		"labelText"			"MAXIHUD"
+		"labelText"			"AYTHUD"
 		"font"				"HudFontMediumBold"
 		"xpos"				"c-75"
 		"ypos"				"435"
@@ -33,7 +33,7 @@ Scheme
 		"textAlignment"		"center"
 		"autoResize"		"0"
 		"pinCorner"			"0"
-		"visible"			"1"
+		"visible"			"0"
 		"enabled"			"1"
 		"fgcolor_override" 	"Black"
 	}

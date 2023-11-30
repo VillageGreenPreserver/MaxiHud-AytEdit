@@ -338,6 +338,19 @@ Scheme
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"5"	
 		}
+		TFFatLineBorder2
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/color_panel_brown"
+		
+			"src_corner_height"		"23"
+			"src_corner_width"		"23"
+		
+			"draw_corner_width"		"3"
+			"draw_corner_height" 	"3"
+		}
 		TFFatLineBorderRedBGOpaque
 		{
 			"bordertype"			"scalable_image"

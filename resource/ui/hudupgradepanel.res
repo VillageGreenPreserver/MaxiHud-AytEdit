@@ -93,7 +93,7 @@
 			"ypos"			"0"
 			"zpos"			"-8"
 			"wide"			"500"
-			"tall"			"310"
+			"tall"			"350"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -695,7 +695,7 @@
 			"tall"			"40"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"image"			"../HUD/tournament_panel_brown"
 

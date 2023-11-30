@@ -315,7 +315,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLimitLabel"
-		"xpos"			"c3"
+		"xpos"			"c-55" //c3
 		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"78"
@@ -324,16 +324,16 @@
 		"enabled"		"1"
 		"labelText"		"%servertimeleft%"
 		"textAlignment"		"center"
-		"font"			"ClockSubText"
+		"font"			"HudFontSmallBold"
 		"proportionaltoparent"	"1"
 
 		if_match
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"c0"
+			"xpos"					"cs-1+2"
 			"ypos"					"12"
 			"wide"					"45"
-			"font"					"HudFontSmall"
+			"font"					"HudFontSmallestBold"
 		}
 	}	
 	"ServerTimeLimitLabelBG"

@@ -36,7 +36,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_blu_opaque"
+		"image"			"replay/thumbnails/panels/color_panel_blu_opaque"
 		"scaleImage"		"1"
 		
 		"src_corner_height"		"60"
@@ -54,16 +54,16 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"BluePlayersBG"
-		"xpos"			"284"
+		"xpos"			"285"
 		"ypos"			"78"
-		"zpos"			"-1"
-		"wide"			"68"
+		"zpos"			"1"
+		"wide"			"67"
 		"tall"			"14"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_blu_opaque"
+		"image"			"replay/thumbnails/panels/color_panel_blu_opaque2"
 		"scaleImage"		"1"
 		
 		"src_corner_height"		"60"
@@ -86,6 +86,7 @@
 		"textAlignment"		"center"
 		"xpos"			"288"
 		"ypos"			"78"
+		"zpos"			"2"
 		"wide"			"64"
 		"tall"			"14"
 		"autoResize"		"0"
@@ -158,7 +159,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_red_opaque"
+		"image"			"replay/thumbnails/panels/color_panel_red_opaque"
 		"scaleImage"		"1"
 
 		"src_corner_height"		"60"
@@ -178,14 +179,14 @@
 		"fieldName"		"RedPlayersBG"
 		"xpos"			"288"
 		"ypos"			"92"
-		"zpos"			"-1"
-		"wide"			"68"
+		"zpos"			"1"
+		"wide"			"67"
 		"tall"			"14"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_red_opaque"
+		"image"			"replay/thumbnails/panels/color_panel_red_opaque2"
 		"scaleImage"		"1"
 		
 		"src_corner_height"		"60"
@@ -208,6 +209,7 @@
 		"textAlignment"		"center"
 		"xpos"			"288"
 		"ypos"			"92"
+		"zpos"			"2"
 		"wide"			"64"
 		"tall"			"14"
 		"autoResize"		"0"
@@ -293,7 +295,7 @@
 		if_mvm
 		{
 			"ypos"			"0"
-			"tall"			"448"
+			"tall"			"436"
 		}
 	}							
 	"BlueTeamLabel"
@@ -966,7 +968,7 @@
 
 		if_mvm
 		{
-			"visible"		"0"
+			"visible"		"1"
 		}
 				
 		"model"
@@ -1125,7 +1127,7 @@
 		if_mvm
 		{
 			"visible"		"1"
-			"wide"			"175"
+			"wide"			"560"
 		}
 	}
 	"ServerLabelNew"
@@ -1194,7 +1196,7 @@
 		
 		if_mvm
 		{
-			"visible"		"1"
+			"visible"		"0"
 		}
 	}
 	"PlayerScoreLabel"
