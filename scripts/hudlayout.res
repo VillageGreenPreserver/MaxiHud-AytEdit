@@ -81,7 +81,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-30"
-		"ypos"			"c56"
+		"ypos"			"c64"
 		"zpos"			"1"
 		"wide"			"60"
 		"tall"			"15"
