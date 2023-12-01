@@ -17,6 +17,7 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
+		"zpos"	"-999999999999999999999999999999999"
 		"xpos"	"c50"
 		"ypos"	"c80"
 		"wide"	"f0"
@@ -60,7 +61,7 @@
 		"ypos"			"c80"	[$WIN32]
 		"wide"			"96"
 		"tall"			"40"
-		"MeterFG"		"TanBright"
+		"MeterFG"		"255 0 0 255"
 		"MeterBG"		"TanDark"
 	}
 	
