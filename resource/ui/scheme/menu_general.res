@@ -119,25 +119,6 @@ Scheme
 			}
 		}
 	}
-	"ConsoleButton"
-	{
-		"ControlName"		"CExImageButton"
-		"fieldName"			"ConsoleButton"
-		"labelText"			">_"
-		"font"				"HudFontMediumBold"
-		"xpos"				"0"
-		"ypos"				"434"
-		"zpos"				"1"
-		"wide"				"32"
-		"tall"				"30"
-		"visible"			"0"
-		"enabled"			"1"
-		"textAlignment"		"center"
-		"command"			"engine toggleconsole"
-
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-	}
 
 	"mouseoveritempanel"
 	{
@@ -1698,6 +1679,7 @@ Scheme
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"border_default"	"MainMenuSubButtonBorder"
 		
 		"image_drawcolor"	"235 226 202 255"
 		"SubImage"
@@ -1714,6 +1696,58 @@ Scheme
 			"image"			"glyph_bug"
 			"scaleImage"	"1"
 		}				
+	}	
+	
+	"ConsoleButton"
+	{
+		"ControlName"	"EditablePanel"
+		"xpos"			"34+120+25"
+		"ypos"			"437"
+		"zpos"			"4"
+		"wide"			"30"
+		"tall"			"25"
+		
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"4"
+			"wide"			"30"
+			"tall"			"25"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"labelText"		">_"
+			"font"			"HudFontSmallBold"
+			"textAlignment"	"east"
+			"use_proportional_insets"	"1"
+			"textinsetx"	"7"
+			"Command"		"engine toggleconsole"
+			"actionsignallevel"	"2"
+
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"image_drawcolor"	"235 226 202 255"
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"10"
+				"ypos"			"5"
+				"zpos"			"1"
+				"wide"			"15"
+				"tall"			"15"
+				"visible"		"0"
+				"enabled"		"1"
+				"image"			"glyph_bug"
+				"scaleImage"	"1"
+			}	
+		}
 	}			
 	
 	"BackToReplaysButton"
